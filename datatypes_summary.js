@@ -37,3 +37,31 @@ console.log(id === anotherId);
 //  console.log(typeof  myFunction);
 //  console.log(typeof heros);
      console.log(typeof  anotherId);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// TYPES OF MEMORIES: 1-Stack memory(primitive)--it is used when you declare a variable tb uska apko ek copy milta h. 
+                    //  2- Heap(non-primitive)-- it give refrence of original value.
+
+    //  EXAMPLE -
+    
+    let myYoutubename = "niveditarajputdotcom"
+
+    let anothername = myYoutubename
+     anothername = "chaiaurcode"
+
+    console.log(anothername);  
+
+    let userOne = {
+        email:  "user@google.com",
+        upi: "user@ybl"
+    }
+      
+    let userTwo = userOne
+
+    userTwo.email = "nivedita@google.com"
+
+    console.log(userOne.email);
+    console.log(userTwo.email);
